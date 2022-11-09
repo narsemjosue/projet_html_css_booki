@@ -1,4 +1,4 @@
-body {
+	body {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
@@ -22,17 +22,24 @@ label
 	padding: 5px;
 }
 /*Localisation+Label+zone de texte*/
+#localisation{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px ;
+	border: 2px solid rgb(214, 211, 211);
+	background-color:rgb(214, 211, 211);
+	color: black;
+}
 #recherche
 {
 	margin-bottom: 20px;
 	display: flex;
 }
 /*icone de plus de 500 logements*/
-#info
+#information
 {
 	display: flex;
 	align-items: center;
-	justify-content: baseline;
+
 }
 /*ligne de filtre*/
 #filtre {
@@ -48,23 +55,23 @@ label
 	display: flex;
 	justify-content: space-between;
 }
-i{
-	background-colo: rgb(125, 182, 250);
-	border-radius: 90%;
-	margin: -2%;
-	padding: 6px;
-	color:#20b5f5;
-	align-items: center;
+.etoile{
+	display: flex;
+}
+.etoile_bleue{
+	color:rgb(22, 108, 221);	
+}
+.etoile_grise{
+	color: rgb(170, 172, 172);
 }
 /*icone et nom de filtre*/
 .fil {
 	border: 1px solid rgb(193, 198, 200);
 	display: flex;
-	flex-direction: column-reverse;
+	align-items: baseline;
 	padding-left: -4%;
+	padding-top: -4%;
 	padding-right: 1%;
-	padding-top: 0%;
-	padding-bottom: 0%;
 	margin: auto;
 	border-radius: 20px;
 	font-weight: bold;
@@ -91,6 +98,9 @@ section {
 	border-radius: 10px 10px 10px 10px;
 	padding: 15px 15px 15px 15px;
 	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 
 }
 /*Le nom de tout les hotel*/
@@ -152,6 +162,9 @@ section {
 .titre_hebergements
 {
 	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
 }
 .pop {
 	display: flex;
@@ -166,8 +179,8 @@ section {
 #nom_etoile{
 	display:flex;
 	flex-direction: column;
-	padding: 0px;
-	margin: 0px;
+	
+	
 }
 
 #activite {
