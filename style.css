@@ -12,14 +12,27 @@
 header {
 	clear: both;
 }
+#enteted {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	border-top: 3px solid #dbe2ed ;
+
+}
+a:focus{
+	color: #6da2f3;
+	border-top: 3px solid #6da2f3 ;
+	padding-top: 1%;
+}
 /*Logo localisation*/
 label
 {
-	background-color: #20b5f5;
+	background-color: #0065fc;
 	font-weight: bold;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	padding: 5px;
+	color: white;
 }
 /*Localisation+Label+zone de texte*/
 #localisation{
@@ -59,7 +72,7 @@ label
 	display: flex;
 }
 .etoile_bleue{
-	color:rgb(22, 108, 221);	
+	color:#0065fc;	
 }
 .etoile_grise{
 	color: rgb(170, 172, 172);
@@ -79,7 +92,7 @@ label
 
 h1 {
 	font-family: 'Satisfy', cursive;
-	color: rgb(22, 108, 221);
+	color: #0065fc;
 }
 /*bloc hébergement, les plus populaires, activité*/
 section {
@@ -94,7 +107,7 @@ section {
 }
 /*bloc les plus populaires*/
 #populaire {
-	background-color: rgb(218, 226, 231);
+	background-color: #f2f2f2;
 	border-radius: 10px 10px 10px 10px;
 	padding: 15px 15px 15px 15px;
 	font-size: 12px;
@@ -122,7 +135,7 @@ section {
 /*bloc des hebergements*/
 #hebergement {
 	display: flex;
-	background-color: rgb(218, 226, 231);
+	background-color: #f2f2f2;
 	justify-content: space-around;
 	border-radius: 10px 10px 10px 10px;
 	padding: 15px 15px 15px 15px;
@@ -212,7 +225,7 @@ h1 {
 
 
 #conteneur {
-	background-color: rgb(226, 226, 226);
+	background-color: #f2f2f2;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -240,9 +253,3 @@ img {
 
 }
 
-#enteted {
-
-	justify-content: space-around;
-	text-decoration: overline;
-
-}
