@@ -1,11 +1,15 @@
 	body {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 12px;
+	align-content: center;
+	align-items: center;
 }
 
 #corps {
 	
-	padding: 5% 5% 5% 5%;
+	align-items: flex-start;
+	padding: 10%;
+	
 
 }
 
@@ -14,28 +18,49 @@ header {
 }
 #enteted {
 	display: flex;
-	justify-content: space-between;
+	justify-content:space-between;
 	font-size: 14px;
-	border-top: 3px solid #dbe2ed ;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-top: 4% solid rgb(163, 160, 160);
+}
+a#enteted{
+	border-top: 4% solid rgb(163, 160, 160);
+}
 
+  #enteted a:hover {
+	color: #0065fc;
+  }
+  .lien_heber
+  {
+	padding-right: 8%;
+  }
+#logo
+{
+	width: 30%;
+	height: 30%;
 }
 a:focus{
-	color: #6da2f3;
-	border-top: 3px solid #6da2f3 ;
+	padding-top: 30px;
+	color: #0065fc;
+	border-top: 3px solid #0065fc ;
 	
 }
 /*Logo localisation*/
 label
-{
+{	display: flex;
 	background-color: #0065fc;
 	font-weight: bold;
 	color: white;
-	border: none;
+	border: 1px solid rgb(193, 198, 200);
 	border-radius: 0 1rem 1rem 0;
-	padding: 0 1.5rem;
+	padding: 1rem;
+	padding-bottom: 0.3rem;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1rem;
 	cursor: pointer;
+	height: 2.5rem;
+	align-content: center;
 }
 /*Localisation+Label+zone de texte*/
 #localisation{
@@ -44,9 +69,15 @@ label
 	border: 2px solid rgb(214, 211, 211);
 	background-color:rgb(214, 211, 211);
 	color: black;
+	font-size: 30px;
+	width: 30px;
+	padding: 1rem;
+	padding-bottom: 0.3rem;
+	align-items: baseline;
 }
 #recherche
 {
+	
 	margin-bottom: 20px;
 	display: flex;
 }
@@ -60,11 +91,16 @@ label
 /*ligne de filtre*/
 #filtre {
 	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
 }
 
 .fi {
 	font-weight: bold;
 	padding-top: 10px;
+	font-size: 20px;
+	
+	
 }
 /*image icone*/
 .icone{
@@ -72,10 +108,20 @@ label
 	justify-content: space-between;
 	font-weight: bold;
 	border: none;
-	border-radius: 6px;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1rem;
-	padding: 4px;
+	border-radius: 30px;
+	margin: 0px 10px;
+    align-items: center;
+	
+}
+.motif
+{
+	background-color: #b5d0f8;
+	border-radius: 100%;
+	padding: 20px;
+	margin-left: -10px;
+	color: #0065fc;
 }
 .etoile{
 	display: flex;
@@ -94,6 +140,16 @@ label
 	border-radius: 3rem;
 	margin: 6px;
 }
+#info
+{	border: 1px solid rgb(193, 198, 200);
+	border-radius: 100%;
+	padding: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-left: -10px;
+	color: #0065fc;
+	margin-right: 10px;
+}
 
 h1 {
 	font-family: 'Satisfy', cursive;
@@ -103,10 +159,9 @@ h1 {
 section {
 	display: flex;
 	justify-content: space-between;
-
 	border-radius: 10px 10px 10px 10px;
-	padding: 15px 15px 15px 15px;
 	margin-bottom: 10px;
+	margin-top: 10px;
 
 
 }
@@ -145,6 +200,7 @@ section {
 	border-radius: 10px 10px 10px 10px;
 	padding: 15px 15px 15px 15px;
 	margin-right: 20px;
+	margin-bottom: 20px;
 	font-size: 12px;
 	flex-direction: column;
 }
