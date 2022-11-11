@@ -5,10 +5,11 @@
     <script src="https://kit.fontawesome.com/c54e92dc23.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, minimal-scale=0.5">
-    <title>Booki</title>
+    <title>BOOKI</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="images/booki.png" />
     <link href="https : //fonts.googleapis.com/css2?family= Satisfaire & display = swap" rel="stylesheet">
 </head>
 
@@ -17,14 +18,20 @@
         <header>
             <div id="entete">
                 <div id='enteteg'>
-                    <h1>Booki</h1>
+                    <div>
+                        <img id="logo" src="images/booki.png">
+                    </div>
                     <h3>Trouver votre hébergement pour vacances de rêve</h3>
                     <p>En plein centre ville ou pleine nature</p>
                 </div>
 
                 <div id='enteted'>
-                    <a href="#" focus="onfocus">Hébergements</a>
-                    <a href="#">Activités</a><br>
+                    <div class="lien_heber">
+                        <a href="#" focus="onfocus">Hébergements</a>
+                    </div>
+                    <div>
+                        <a href="#">Activités</a><br>
+                    </div>
                 </div>
             </div>
             <div id="recherche">
@@ -35,23 +42,24 @@
             <div id="filtre">
                 <div class="fi"> <a href="#">Filtres</a></div>
                 <div class="fil"> <a href="#">
-                        <div class="icone"><i class="fa-solid fa-money-bill-wave"></i>
+                
+                        <div class="icone"><div class="motif"><i class="fa-solid fa-money-bill-wave"></i></div>
                             <p>Economique</p>
                         </div>
                     </a></div>
                 <div class="fil"><a href="#">
-                        <div class="icone"><i class="fa-solid fa-person"></i>
+                        <div class="icone"><div class="motif"><i class="fa-solid fa-person"></i></div>
                             <p> Familial</p>
                         </div>
                     </a></div>
                 <div class="fil"><a href="#">
-                        <div class="icone"><i class="fa-solid fa-heart"></i>
+                        <div class="icone"><div class="motif"><i class="fa-solid fa-heart"></i></div>
                             <p> Romantique</p>
                         </div>
                     </a></div>
 
                 <div class="fil"><a href="#">
-                        <div class="icone"><i class="fa-solid fa-dog"></i>
+                        <div class="icone"><div class="motif"><i class="fa-solid fa-dog"></i></div>
                             <p> Animaux
                                 autorisés</p>
                         </div>
@@ -100,7 +108,7 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                
+
                             </div>
                         </a>
                     </div>
@@ -136,7 +144,7 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    
+
                                 </div>
                                 <div class="etoile_grise">
                                     <i class="fas fa-star"></i>
@@ -178,8 +186,8 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                
-                                
+
+
                             </div>
                         </a>
                     </div>
@@ -210,7 +218,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="etoile_grise">
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -321,7 +329,7 @@
                 </div>
             </div>
         </section>
-    </div>
+ 
     <footer>
         <div id='conteneur'>
             <div><strong>A Propos</strong><br>
@@ -339,6 +347,7 @@
             </div>
         </div>
     </footer>
+</div>
 </body>
 
 </html>
