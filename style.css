@@ -29,10 +29,13 @@ label
 {
 	background-color: #0065fc;
 	font-weight: bold;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
-	padding: 5px;
 	color: white;
+	border: none;
+	border-radius: 0 1rem 1rem 0;
+	padding: 0 1.5rem;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+	cursor: pointer;
 }
 /*Localisation+Label+zone de texte*/
 #localisation{
@@ -67,6 +70,12 @@ label
 .icone{
 	display: flex;
 	justify-content: space-between;
+	font-weight: bold;
+	border: none;
+	border-radius: 6px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+	padding: 4px;
 }
 .etoile{
 	display: flex;
@@ -80,14 +89,10 @@ label
 /*icone et nom de filtre*/
 .fil {
 	border: 1px solid rgb(193, 198, 200);
-	display: flex;
-	align-items: baseline;
-	padding-left: -4%;
-	padding-top: -4%;
-	padding-right: 1%;
-	margin: auto;
-	border-radius: 20px;
+	display: flex; 
 	font-weight: bold;
+	border-radius: 3rem;
+	margin: 6px;
 }
 
 h1 {
