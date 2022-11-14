@@ -40,11 +40,14 @@ a#enteted{
 	width: 30%;
 	height: 30%;
 }
-a:focus{
-	padding-top: 30px;
-	color: #0065fc;
-	border-top: 3px solid #0065fc ;
-	
+.enteted{
+	a:active{
+		padding-top: 30px;
+		color: #0065fc;
+		border-top: 3px solid #0065fc ;
+		
+	}
+
 }
 /*Logo localisation*/
 label
@@ -295,6 +298,10 @@ h1 {
 	margin-top: 30px;
 
 }
+footer{
+	position:relative;
+	bottom: 0px;
+}
 
 a {
 	text-decoration: none;
@@ -314,3 +321,70 @@ img {
 
 }
 
+@media screen and (max-width: 960px)
+{
+	#corps {
+		padding-top: 5%;
+	}
+
+	#entete{
+		display: flex;
+		flex-direction: column;
+	}
+	#enteted{
+		margin-top: 6px;
+		font-weight: bold;
+		font-size: 1.4rem;
+	}
+	label
+	{	display: flex;
+		background-color: #0065fc;
+		font-weight: bold;
+		color: white;
+		border: 1px solid rgb(193, 198, 200);
+		border-radius: 0 1rem 1rem 0;
+		padding: 0.5rem;
+		padding-bottom: 0.3rem;
+		font-family: 'Raleway', sans-serif;
+		font-size: 0.8rem;
+		cursor: pointer;
+		height: 1rem;
+		align-content: center;
+	}
+	#localisation{
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px ;
+		border: 2px solid rgb(214, 211, 211);
+		background-color:rgb(214, 211, 211);
+		color: black;
+		font-size: 15px;
+		width: 30px;
+		padding: 0.5rem;
+		padding-bottom: 0.3rem;
+		align-items: baseline;
+	}
+	#recherche
+	{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		display: flex;
+	}
+	#filtre{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	section{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.photo2{
+		display: flex;
+		flex-direction: column;
+	}
+	#activite{
+		display: flex;
+		flex-direction: column;
+
+	}
+	}
