@@ -59,7 +59,7 @@ label
 	font-family: 'Raleway', sans-serif;
 	font-size: 1rem;
 	cursor: pointer;
-	height: 2.5rem;
+	height: 1.8rem;
 	align-content: center;
 }
 /*Localisation+Label+zone de texte*/
@@ -69,16 +69,16 @@ label
 	border: 2px solid rgb(214, 211, 211);
 	background-color:rgb(214, 211, 211);
 	color: black;
-	font-size: 30px;
+	font-size: 25px;
 	width: 30px;
-	padding: 1rem;
+	padding: 0.5rem;
 	padding-bottom: 0.3rem;
 	align-items: baseline;
 }
 #recherche
 {
 	
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	display: flex;
 }
 /*icone de plus de 500 logements*/
