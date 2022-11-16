@@ -29,7 +29,7 @@ a#enteted{
 }
 
   #enteted a:hover {
-	color: #0065fc;
+	color: #00fcda;
   }
   .lien_heber
   {
@@ -40,15 +40,14 @@ a#enteted{
 	width: 30%;
 	height: 30%;
 }
-.enteted{
-	a:active{
+#enteted a:focus{
 		padding-top: 30px;
 		color: #0065fc;
 		border-top: 3px solid #0065fc ;
 		
-	}
+	
 
-}
+ }
 /*Logo localisation*/
 label
 {	display: flex;
