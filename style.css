@@ -20,6 +20,12 @@
 		width: 30%;
 		height: 30%;
 	}
+	#entete {
+		display: flex;
+		justify-content: space-between;
+
+
+	}
 	a#enteted {
 		border-top: 4% solid rgb(163, 160, 160);
 	}
@@ -46,7 +52,6 @@
 		text-align: center;
 		font-size: 1rem;
 		cursor: pointer;
-		eight: 1.4rem;
 		align-content: center;
 	}
 	/*Localisation+Label+zone de texte*/
@@ -146,6 +151,10 @@
 
 
 	}
+	img {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
 	/*bloc les plus populaires*/
 	#populaire {
 		background-color: #f2f2f2;
@@ -219,7 +228,7 @@
 	.pop {
 		display: flex;
 		background-color: white;
-		border-radius: 10px 10px 10px 10px;
+		border-radius: 10px;
 		padding: 3px;
 		margin-bottom: 4px;
 		justify-content: space-between;
@@ -229,8 +238,6 @@
 	#nom_etoile {
 		display: flex;
 		flex-direction: column;
-
-
 	}
 	#activite {
 		display: flex;
@@ -238,11 +245,6 @@
 		border-radius: 10px 10px 10px 10px;
 		padding: 15px 15px 15px 15px;
 		max-width: 100%;
-		/*	margin-left: 110px;
-	margin-right:80px;*/
-		margin: auto;
-
-		font-size: 12px;
 	}
 	.photo3 {
 		display: flex;
@@ -250,11 +252,6 @@
 		margin-bottom: 5px;
 		margin-top: 5px;
 		flex-direction: column;
-
-	}
-	h1 {
-		clear: both;
-		color: #3378fe;
 	}
 	#conteneur {
 		background-color: #f2f2f2;
@@ -266,30 +263,14 @@
 		margin-top: 30px;
 
 	}
-	footer {
-		position: relative;
-		bottom: 0px;
-	}
 	a {
 		text-decoration: none;
 		color: black;
 
 	}
-	img {
-		border-top-left-radius: 10px;
-		border-top-right-radius: 10px;
-	}
-	#entete {
-		display: flex;
-		justify-content: space-between;
-
-
-	}
+	
 	@media screen and (max-width: 960px) {
-		#corps {
-			padding-top: 5%;
-		}
-
+	
 		#entete {
 			display: flex;
 			flex-direction: column;
