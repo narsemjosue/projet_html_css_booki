@@ -58,14 +58,15 @@
 	#localisation {
 		border-top-left-radius: 20px;
 		border-bottom-left-radius: 20px;
-		border: 2px solid rgb(214, 211, 211);
 		background-color: rgb(214, 211, 211);
 		color: black;
 		font-size: 25px;
 		width: 30px;
-		padding: 0.5rem;
-		padding-bottom: 0.3rem;
-		align-items: baseline;
+		text-align: center;
+		padding-top: 0.7rem;
+	}
+	input{
+		border: 1px solid  rgb(214, 211, 211);;
 	}
 	#recherche {
 
@@ -106,8 +107,9 @@
 	.motif {
 		background-color: #b5d0f8;
 		border-radius: 100%;
-		padding: 20px;
-		margin-left: -10px;
+		padding: 15px;
+		margin-left: -11px;
+		margin-bottom: 6px;
 		color: #0065fc;
 	}
 	.etoile {
@@ -125,7 +127,9 @@
 		display: flex;
 		font-weight: bold;
 		border-radius: 3rem;
+		height: 2.8rem;
 		margin: 6px;
+	
 	}
 	#info {
 		border: 1px solid rgb(193, 198, 200);
@@ -269,7 +273,7 @@
 
 	}
 	
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: 900px) {
 	
 		#entete {
 			display: flex;
