@@ -8,7 +8,8 @@
 	#corps{
 		width: 100%;
 		max-width: 1000px;
-		margin: 0;
+		margin: auto;
+		padding: auto;
 	}
 	header {
 		clear: both;
@@ -78,7 +79,7 @@
 	#information {
 		display: flex;
 		align-items: center;
-
+		justify-content: flex-start;
 	}
 	/*ligne de filtre*/
 	#filtre {
@@ -132,13 +133,13 @@
 		margin: 6px;
 	
 	}
+	
 	#info {
 		border: 1px solid rgb(193, 198, 200);
 		border-radius: 100%;
 		padding: 5px;
 		padding-left: 6px;
 		padding-right: 6px;
-		margin-left: -10px;
 		color: #0065fc;
 		margin-right: 10px;
 	}
