@@ -1,12 +1,15 @@
 
-	body {
+	html,body {
 		font-family: 'Raleway', 'sans empattement', sans-serif ;
 		font-size: 12px;
-		align-content: center;
-		align-items: center;
-		padding: 10%;
+		padding: 0;
+		margin: 0;
 	}
-	
+	#corps{
+		width: 100%;
+		max-width: 1000px;
+		margin: 0;
+	}
 	header {
 		clear: both;
 	}
@@ -23,8 +26,6 @@
 	#entete {
 		display: flex;
 		justify-content: space-between;
-
-
 	}
 	a#enteted {
 		border-top: 4% solid rgb(163, 160, 160);
@@ -257,15 +258,20 @@
 		margin-top: 5px;
 		flex-direction: column;
 	}
-	#conteneur {
+	footer{
 		background-color: #f2f2f2;
+		width: 100%;
+		margin-top: 30px;
+	}
+	#conteneur {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 		height: 100px;
 		clear: both;
-		margin-top: 30px;
-
+		width: 100%;
+		max-width: 1000px;
+		margin: auto;
 	}
 	a {
 		text-decoration: none;

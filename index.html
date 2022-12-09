@@ -1,73 +1,79 @@
-
 <html lang="fr">
+
 <head>
     <script src="https://kit.fontawesome.com/c54e92dc23.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BOOKI</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="icon" type="image/png" href="images/booki.png" >
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" href="images/booki.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100;400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <!--Entete de la page-->
+    <header>
+        <div id="entete">
+            <div id='enteteg'>
+                <div>
+                    <img id="logo" src="images/booki.png" alt="logo">
+                </div>
+                <h3>Trouver votre hébergement pour vacances de rêve</h3>
+                <p>En plein centre ville ou pleine nature</p>
+            </div>
+
+            <div id='enteted'>
+                <div class="lien_heber">
+                    <a href="#" focus="onfocus">Hébergements</a>
+                </div>
+                <div>
+                    <a href="#">Activités</a><br>
+                </div>
+            </div>
+        </div>
+        <div id="recherche">
+            <div id="localisation"><i class="fa-solid fa-location-dot"></i></div>
+            <input type="search" placeholder="Marseille,France">
+            <label>Rechercher</label>
+        </div>
+        <div id="filtre">
+            <div class="fi"> Filtres</div>
+            <div class="fil"> <a href="#">
+
+                    <div class="icone">
+                        <div class="motif"><i class="fa-solid fa-money-bill-wave"></i></div>
+                        <p>Economique</p>
+                    </div>
+                </a></div>
+            <div class="fil"><a href="#">
+                    <div class="icone">
+                        <div class="motif"><i class="fa-solid fa-person"></i></div>
+                        <p> Familial</p>
+                    </div>
+                </a></div>
+            <div class="fil"><a href="#">
+                    <div class="icone">
+                        <div class="motif"><i class="fa-solid fa-heart"></i></div>
+                        <p> Romantique</p>
+                    </div>
+                </a></div>
+
+            <div class="fil"><a href="#">
+                    <div class="icone">
+                        <div class="motif"><i class="fa-solid fa-dog"></i></div>
+                        <p> Animaux
+                            autorisés</p>
+                    </div>
+                </a></div>
+
+        </div>
+    </header>
+    <!-- corps de la page-->
     <div id='corps'>
-        <header>
-            <div id="entete">
-                <div id='enteteg'>
-                    <div>
-                        <img id="logo" src="images/booki.png" alt="logo">
-                    </div>
-                    <h3>Trouver votre hébergement pour vacances de rêve</h3>
-                    <p>En plein centre ville ou pleine nature</p>
-                </div>
-
-                <div id='enteted'>
-                    <div class="lien_heber">
-                        <a href="#" focus="onfocus">Hébergements</a>
-                    </div>
-                    <div>
-                        <a href="#">Activités</a><br>
-                    </div>
-                </div>
-            </div>
-            <div id="recherche">
-                <div id="localisation"><i class="fa-solid fa-location-dot"></i></div>
-                <input type="search" placeholder="Marseille,France">
-                <label>Rechercher</label>
-            </div>
-            <div id="filtre">
-                <div class="fi"> Filtres</div>
-                <div class="fil"> <a href="#">
-
-                        <div class="icone">
-                            <div class="motif"><i class="fa-solid fa-money-bill-wave"></i></div>
-                            <p>Economique</p>
-                        </div>
-                    </a></div>
-                <div class="fil"><a href="#">
-                        <div class="icone">
-                            <div class="motif"><i class="fa-solid fa-person"></i></div>
-                            <p> Familial</p>
-                        </div>
-                    </a></div>
-                <div class="fil"><a href="#">
-                        <div class="icone">
-                            <div class="motif"><i class="fa-solid fa-heart"></i></div>
-                            <p> Romantique</p>
-                        </div>
-                    </a></div>
-
-                <div class="fil"><a href="#">
-                        <div class="icone">
-                            <div class="motif"><i class="fa-solid fa-dog"></i></div>
-                            <p> Animaux
-                                autorisés</p>
-                        </div>
-                    </a></div>
-
-            </div>
-        </header>
         <div id="information">
             <div id="info"><i class="fa-solid fa-info"></i></div>
             <p>Plus de 500 logements sont disponibles dans cette ville </p>
@@ -273,7 +279,7 @@
                     </div>
                 </a>
             </div>
-        </section >
+        </section>
         <div class="titre_hebergements">Activités à Marseille</div>
         <section id="activite" title="Activités_a_marseille">
 
@@ -329,23 +335,25 @@
                 </div>
             </div>
         </section>
-        <footer>
-            <div id='conteneur'>
-                <div><strong>A Propos</strong><br>
-                    <a href="#">Fonctionnement du site</a><br>
-                    <a href="#">Conditions générales de vente</a><br>
-                    <a href="#">Données et confidentialité</a><br>
-                </div>
-                <div><strong>Nos Hébergements</strong><br>
-                    <a href="#">Charte de qualité</a><br>
-                    <a href="#">Soumettre votre hotel</a><br>
-                </div>
-                <div><strong>Assistance</strong><br>
-                    <a href="#">Centre d'aide</a><br>
-                    <a href="#">Nous contacter</a><br>
-                </div>
-            </div>
-        </footer>
     </div>
+    <!--Pied de la page-->
+    <footer>
+        <div id='conteneur'>
+            <div><strong>A Propos</strong><br>
+                <a href="#">Fonctionnement du site</a><br>
+                <a href="#">Conditions générales de vente</a><br>
+                <a href="#">Données et confidentialité</a><br>
+            </div>
+            <div><strong>Nos Hébergements</strong><br>
+                <a href="#">Charte de qualité</a><br>
+                <a href="#">Soumettre votre hotel</a><br>
+            </div>
+            <div><strong>Assistance</strong><br>
+                <a href="#">Centre d'aide</a><br>
+                <a href="#">Nous contacter</a><br>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
